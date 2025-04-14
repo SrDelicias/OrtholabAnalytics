@@ -113,6 +113,13 @@ h1{
 .subclase a:hover{
     background-color: #78c5e9;
 }
+.active{
+    /* Estilos para el elemento activo */
+  background-color: #ddd;
+  font-weight: bold;
+  /* Puedes agregar sombras u otros efectos */
+  box-shadow: inset 0 -3px 0 #333;
+}
 .subclase a.active{
     /* Estilos para el elemento activo */
   background-color: #ddd;

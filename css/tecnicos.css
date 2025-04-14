@@ -113,6 +113,13 @@ h1{
 .subclase a:hover{
     background-color: #78c5e9;
 }
+.active{
+    /* Estilos para el elemento activo */
+  background-color: #ddd;
+  font-weight: bold;
+  /* Puedes agregar sombras u otros efectos */
+  box-shadow: inset 0 -3px 0 #333;
+}
 .subclase a.active{
     /* Estilos para el elemento activo */
   background-color: #ddd;
@@ -122,7 +129,7 @@ h1{
 }
 
 aside {
-    position: fixed; /* Para mantenerlo fijo durante el scroll */
+    position: absolute; /* Para mantenerlo fijo durante el scroll */
     left: 0; /* Lo posiciona en el lado derecho */
     width: 160px; /* Ancho fijo - ajusta según tus necesidades */
     height: 100vh; /* Altura completa de la ventana */
